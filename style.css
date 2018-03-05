@@ -1,0 +1,236 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    margin-top: -15px;
+}
+
+
+.head {
+    background-image: url("itw_cv3/bg.jpg");
+}
+
+hr {
+    border-style: dashed;
+    border-color: #b15e23;
+}
+
+h1 {
+    padding: 2% 0 2.5% 0;
+    font-size: x-large;
+    color: #d5a17c;
+    font-style: italic;
+}
+
+    h1 > a {
+        color: white;
+        font-size: 200%;
+    }
+
+h2 {
+    color: #b15e23;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.menu-item {
+    height: 40px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.head a {
+    color: white;
+}
+
+.head ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 15px 0 0;
+    margin: 0;
+}
+
+    .head ul > li {
+        float: left;
+        padding-right: 2%;
+    }
+
+        .head li a {
+            padding-bottom: 6px;
+            display: block;
+        }
+
+        .head li a:hover + img {
+            display: block;
+        }
+
+        .head li img {
+            display: none;
+            margin: auto;
+        }
+
+
+.full {
+    width: 100%;
+}
+
+.center {
+    background-image: url(itw_cv3/center_bg.gif);
+    background-repeat-x: no-repeat;
+    background-size: contain;
+    width: 940px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+}
+
+.column-wrapper {
+    overflow: hidden;
+}
+
+
+    .major-left-column {
+        width: 59%;
+        float: left;
+    }
+
+    .major-right-column {
+        width: 39%;
+        overflow: hidden;
+    }
+
+
+.prednasky {
+    width: 95%;
+}
+
+    .prednasky div:nth-child(even) {
+        width: 49%;
+        float: left;
+        padding-right: 1%;
+    }
+
+    .prednasky div:nth-child(odd) {
+        width: 49%;
+        padding-left: 1%;
+        overflow: hidden;
+    }
+
+        .prednasky p {
+            text-align: justify;
+            width: 77%;
+            float: right;
+            margin-top: -20px;
+        }
+
+        .prednasky a {
+            color: #3c1f0a;
+            font-weight: bold;
+        }
+
+
+.icon {
+    display: block;
+    float: left;
+    padding-right: 5px;
+}
+
+
+
+.lectures {
+    width: 94%;
+    margin-left: 6%;
+}
+
+.lectures div {
+    padding-top: 10px;
+}
+
+
+    .lectures img {
+        float: left;
+        padding-right: 10px;
+        padding-top: 15px;
+    }
+
+
+
+    .lectures p {
+        padding-bottom: 10px;
+    }
+
+
+    .lectures a {
+        color: #3c1f0a;
+        font-weight: bold;
+    }
+
+table {
+    border: black solid;
+    border-collapse: initial;
+    width: 95%;
+}
+
+
+    th {
+        background-color: #d5a17c;
+        border: black dotted;
+    }
+
+    td {
+        text-align: center;
+    }
+
+
+        tbody tr {
+            border-bottom: black double;
+        }
+
+.text-left {
+    text-align: left;
+}
+.about {
+    text-align: justify;
+    padding-bottom: 2%;
+}
+
+
+.footer {
+    color: white;
+    background-image: url("itw_cv3/footer_bg.gif");
+}
+
+
+    .footer > div:first-child {
+        padding-top: 8px;
+        padding-bottom: 5px;
+    }
+
+        .footer a {
+            color: #d5a17c;
+        }
+
+        .footer h2 {
+            color: white;
+        }
+
+
+        .footer ul {
+            padding-left: 20px;
+            list-style-image: url('itw_cv3/footer_list_bullet.gif');
+        }
+
+            dt {
+                float: left;
+            }
+
+            dd {
+                padding-left: 5%;
+                color: #d5a17c;
+            }
