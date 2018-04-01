@@ -1,0 +1,283 @@
+#navbar {
+    background:linear-gradient(#FF6F00, #FFA000);
+    text-align: center;
+    border-top: solid;
+    border-top-color: #3E2723;
+}
+body {
+    margin: 0;
+    font-family: Crimson Text;
+    font-size: 12pt;
+    background: url("img/pattern.png");
+}
+
+h1, h2, h3 {
+    font-family: Lobster;
+    margin: auto;
+    color: #5D4037;
+}
+
+h2 {
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.menu h1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 270%;
+    display:table;
+}
+
+#navbar .menu {
+    display: inline-block;
+    margin: auto;
+    width: 960px;
+}
+
+.menu-left {
+    float: left;
+}
+.menu-right {
+    float: right;
+}
+
+.logo {
+    background: url("img/logo.png") no-repeat center;
+    height: 122px;
+    width: 198px;
+    margin-top: 0;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+}
+
+.logo span {display: none}
+
+.logo a {padding: 100px}
+
+#page-title {
+    background: url("img/bg.png") no-repeat;
+    background-size:cover;
+    height: 270px;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-size: 270%;
+    display:table;
+}
+#page-title h1 {
+    padding-top: 100px;
+}
+
+#page-title > * {
+    width: 960px;
+    margin: auto;
+}
+
+#main {
+    background: url("img/pattern.png");;
+}
+
+#main{
+    width: 960px;
+    margin: auto;
+}
+.main-text {
+    text-align: center;
+}
+.main-text p {
+    padding-bottom: 20px;
+}
+
+.contacts {
+    display: flex;
+}
+.contacts p {
+    margin-top: 0px;
+}
+
+.form {
+    background-color: white;
+    width: 60%;
+    border: 2px solid #eeeeee;
+    padding: 15px;
+}
+
+.info {
+    width: 34%;
+    margin-left: 6%;
+}
+
+.info a {
+    color: #FF9000;
+}
+
+.sidebar-social {
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.sidebar-social a + a {
+    margin-left: 10px;
+}
+
+
+.info > * {
+    background-color: white;
+    border: 2px solid #eeeeee;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+footer {
+    background: linear-gradient(#252525 84%, #333 16%);
+    color: white;
+    text-align: center;
+}
+
+.form .row {
+    display: flex;
+}
+
+
+.form .row > div {
+    width: 45%;
+}
+
+textarea {
+    width: 93%;
+}
+
+.contacts {
+    margin-top: 20px
+}
+
+.form .row {
+    margin-top: 20px;
+}
+
+.form .row input[type="text"] {
+    width: 100%;
+    height: 25px;
+}
+
+.form .row button {
+    border: 0;
+    width: 90px;
+    height: 35px;
+    background: #FF9000;
+    color: white;
+}
+
+.newsletter {
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid #eeeeee;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.newsletter input{
+    width: 75%;
+    height: 32px;
+    margin-right: 0;
+}
+.newsletter button {
+    border: 0;
+    width: 23%;
+    height: 35px;
+    background: #FF9000;
+    color: white;
+    margin-left: -4px;
+}
+
+.form .row input[type="email"] {
+    width: 100%;
+    height: 25px;
+}
+
+.form .row > div + div {
+    margin-left: 20px;
+}
+
+footer > * {
+    width: 960px;
+    margin: auto;
+}
+
+footer .main {
+    display: flex;
+    text-align: left;
+}
+
+.hours {
+    width: 250px;
+}
+
+.hours table {
+    width: 100%;
+}
+
+.hours table tr td:last-child {
+    text-align: right;
+}
+
+.about {
+    width: 230px;
+    margin-left: 100px;
+}
+
+footer .menu {
+    width: 240px;
+    margin-left: 120px;
+}
+
+.footer-title {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid white;
+}
+
+.social {
+    font-size: 30px;
+    margin-top: 0;
+    color: #919191;
+}
+
+#copyright {
+    padding-bottom: 5px;
+}
